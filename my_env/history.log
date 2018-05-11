@@ -1,0 +1,395 @@
+    1  ls
+    2  echo "Hello"
+    3  ls
+    4  cd fabric_binary/
+    5  ls
+    6  bash
+    7  ls
+    8  ls
+    9  sudo apt-get update
+   10  sudo apt-get upgrade
+   11  sudo apt-get install curl
+   12  curl -fsSL https://get.docker.com/ | sh
+   13  sudo usermod -aG docker fang
+   14  sudo service docker restart
+   15  sudo curl -L
+   16  https://github.com/docker/compose/releases/download/1.20.1/docker-compose-
+   17  sudo curl -L https://github.com/docker/compose/releases/download/1.20.1/docker-compose-
+   18  ls
+   19  sudo curl -L https://github.com/docker/compose/releases/download/1.20.1/docker-compose-
+   20  sudo curl -L https://github.com/docker/compose/releases/download/1.20.1/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+   21  sudo chmod +x /usr/local/bin/docker-compose
+   22  docker-compose -version
+   23  sudo apt-get install python-pip
+   24  sudo apt-get install -y cpp gccgo "build-essential" libsnappy-dev
+   25  wget https://storage.googleapis.com/golang/go1.9.1.linux-amd64.tar.gz
+   26  tar zxvf go1.9.1.linux-amd64.tar.gz
+   27  sudo mv go /usr/lib/go-1.9.1/
+   28  sudo apt-get install build-essential libssl-dev
+   29  curl https://raw.githubusercontent.com/creationix/nvm/v0.30.2/install.sh | bash
+   30  source ~/.profile
+   31  nvm install v6.9.5
+   32  nvm install v8.10
+   33  npm install npm@latest -g
+   34  nvm use v8.10
+   35  node -v
+   36  docker pull hyperledger/fabric-peer:x86_64-1.1.0-preview
+   37  sudo docker pull hyperledger/fabric-peer:x86_64-1.1.0-preview
+   38  cd ~/Downloads/
+   39  sh installHL.sh 
+   40  sudo
+   41  su
+   42  sudo sh installHL.sh 
+   43  docker pull hyperledger/fabric-couchdb:x86_64-1.1.0-preview
+   44  sudo docker pull hyperledger/fabric-couchdb:x86_64-1.1.0-preview
+   45  sudo docker pull hyperledger/fabric-kafka:x86_64-1.1.0-preview
+   46  docker tag hyperledger/fabric-ca:x86_64-1.1.0-preview hyperledger/fabric-
+   47  docker tag hyperledger/fabric-ca:x86_64-1.1.0-preview hyperledger/fabric-ca:latest
+   48  sudo docker tag hyperledger/fabric-ca:x86_64-1.1.0-preview hyperledger/fabric-ca:latest
+   49  sudo docker tag hyperledger/fabric-tools:x86_64-1.1.0-preview hyperledger/fabric-
+   50  sudo docker tag hyperledger/fabric-tools:x86_64-1.1.0-preview hyperledger/fabric-tools:latest
+   51  sudo docker tag hyperledger/fabric-couchdb:x86_64-1.1.0-preview hyperledger/fabric-couchdb:latest
+   52  sudo docker tag hyperledger/fabric-kafka:x86_64-1.1.0-preview hyperledger/fabric-kafka:latest
+   53  sudo docker tag hyperledger/fabric-zookeeper:x86_64-1.1.0-preview hyperledger/fabric-zookeeper:latest
+   54  sudo docker tag hyperledger/fabric-orderer:x86_64-1.1.0-preview hyperledger/fabric-orderer:latest
+   55  sudo docker tag hyperledger/fabric-peer:x86_64-1.1.0-preview hyperledger/fabric-peer:latesti
+   56  sudo docker tag hyperledger/fabric-javaenv:x86_64-1.1.0-preview hyperledger/fabric-javaenv:latest
+   57  mkdir /home/your user name/fabric_binary
+   58  sudo mkdir /home/your user name/fabric_binary
+   59  sudo mkdir /home/Fang/fabric_binary
+   60  mkdir /home/Fang/fabric_binary
+   61  mkdir /home/fang/fabric_binary
+   62  cd /home/fang/fabric_binary
+   63  curl -sSL https://goo.gl/6wtTN5 | bash -s 1.1.0-preview
+   64  ls bin
+   65  vi ~/.bashrc
+   66  gredut ~/.bashrc 
+   67  gredit ~/.bashrc
+   68  gedit ~/.bashrc
+   69  source ~/.bashrc
+   70  ..
+   71  ../
+   72  ./
+   73  .
+   74  ...
+   75  ..
+   76  cd ..
+   77  source ~/.bashrc
+   78  exec bash
+   79  . ~/.bashrc
+   80  gedit ~/.bashrc
+   81  cd /home/fang/fabric_binary/
+   82  gedit ~/.bashrc
+   83  ls
+   84  bash
+   85  cd ..
+   86  ls
+   87  bash
+   88  ls
+   89  npm
+   90  source ~/.bashrc
+   91  ls
+   92  git clone https://github.com/wearetheledger/fabric-network-
+   93  sudo apt install git
+   94  git clone https://github.com/wearetheledger/fabric-network-boilerplate.fit
+   95  f
+   96  git clone https://github.com/wearetheledger/fabric-network-boilerplate.git
+   97  ls
+   98  cd fabric-network-boilerplate
+   99  ls
+  100  cd ..
+  101  cryptogen generate –config=./crypto-config.yaml
+  102  ls
+  103  cd fabric-network-boilerplate/
+  104  cryptogen generate –config=./crypto-config.yaml
+  105  cryptogen
+  106  cryptogen generate –config=./crypto-config.yaml
+  107  docker ps
+  108  sudo docker ps
+  109  docker exec -e
+  110  sh
+  111  sh startFabric.sh
+  112  source startFabric.sh 
+  113  npm
+  114  source ~/.bashrc
+  115  ls
+  116  git clone https://github.com/wearetheledger/fabric-network-
+  117  sudo apt install git
+  118  git clone https://github.com/wearetheledger/fabric-network-boilerplate.fit
+  119  f
+  120  git clone https://github.com/wearetheledger/fabric-network-boilerplate.git
+  121  ls
+  122  cd fabric-network-boilerplate
+  123  ls
+  124  cd ..
+  125  cryptogen generate –config=./crypto-config.yaml
+  126  ls
+  127  cd fabric-network-boilerplate/
+  128  cryptogen generate –config=./crypto-config.yaml
+  129  cryptogen
+  130  cryptogen generate –config=./crypto-config.yaml
+  131  docker ps
+  132  sudo docker ps
+  133  docker exec -e
+  134  sh
+  135  sh startFabric.sh
+  136  source startFabric.sh 
+  137  bash
+  138  sudo apt install cmdtest
+  139  ls
+  140  cd fabric-network-boilerplate/
+  141  source startFabric.sh 
+  142  bash
+  143  cd config
+  144  cd fabric-network-boilerplate/
+  145  cd config
+  146  cd basic-network/
+  147  cd config/
+  148  cd ..
+  149  '/home/fang/fabric-network-boilerplate/startFabric.sh' 
+  150  yarn -v
+  151  sudo apt-get install tarn
+  152  sudo apt-get install yarn
+  153  sudo apt remove cmdtest
+  154  sudo apt-get install yarn
+  155  sudo apt install pm
+  156  sudo apt install npm
+  157  sudo npm install -g yarn
+  158  sh startFabric.sh 
+  159  source startFabric.sh 
+  160  bash
+  161  '/home/fang/fabric-network-boilerplate/startFabric.sh' 
+  162  cd fabric-network-boilerplate/
+  163  ls
+  164  startFabric.sh
+  165  sh startFabric.sh 
+  166  npm
+  167  cd ..
+  168  npm
+  169  yarn
+  170  sudo npm install yarn
+  171  sudo npm install -g yarn
+  172  '/home/fang/fabric-network-boilerplate/startFabric.sh' 
+  173  ls
+  174  cd fabric-network-boilerplate/
+  175  sh startFabric.sh 
+  176  yarn
+  177  ls
+  178  yarn --version
+  179  npm install -g yarn
+  180  sudo npm install -g yarn
+  181  yarn --version
+  182  npm -v
+  183  yarn -v
+  184  cd ~
+  185  yarn -v
+  186  ls
+  187  npm list
+  188  /usr/bin/env: ‘node’: No such file or directory
+  189  ln -s /usr/bin/nodejs /usr/bin/node
+  190  sudo ln -s /usr/bin/nodejs /usr/bin/node
+  191  yarn -v
+  192  cd fabric-network-boilerplate/
+  193  sh startFabric.sh 
+  194  node -v
+  195  sudo npm install -g n
+  196  sudo n latest
+  197  sudo n 8.9.0
+  198  sh startFabric.sh 
+  199  docker exec -e
+  200  docker -v
+  201  sudo sh startFabric.sh 
+  202  docker exec -e
+  203  "CORE_PEER_LOCALMSPID=Org1MSP" -e
+  204  "CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fa
+  205  bric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.exam
+  206  ple.com/msp" cli peer chaincode invoke -o orderer.example.com:7050 -C
+  207  docker exec -e "CORE_PEER_LOCALMSPID=Org1MSP" -e "CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp" cli peer chaincode invoke -o orderer.example.com:7050 -C mychannel -n fabcar -c '{"function":"initLedger","Args":[""]}'
+  208  sudo docker exec -e "CORE_PEER_LOCALMSPID=Org1MSP" -e "CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp" cli peer chaincode invoke -o orderer.example.com:7050 -C mychannel -n fabcar -c '{"function":"initLedger","Args":[""]}'
+  209  ls
+  210  docker ps
+  211  sudo docker ps
+  212  ls
+  213  sudo docker ps
+  214  docker ps
+  215  cd fabric-network-boilerplate/
+  216  ls
+  217  docker ps
+  218  sudo startFabric.sh
+  219  sudo sh startFabric.sh
+  220  docker ps
+  221  ls
+  222  cd fabcar/
+  223  node query/js
+  224  node query.js
+  225  npm start
+  226  node invoke.js
+  227  npm install fabric-client
+  228  node invoke.js
+  229  node registerUser.js 
+  230  npm install fabric-ca-client
+  231  node registerUser.js 
+  232  node enrollAdmin.js
+  233  node registerUser.js 
+  234  node invoke.js
+  235  node query.js
+  236  npm list
+  237  npm install grpc
+  238  npm list
+  239  node query.js
+  240  node invoke.js
+  241  docker ps
+  242  cd fabric-network-boilerplate/
+  243  sudo sh startFabric.sh 
+  244  docker ps
+  245  ls
+  246  cd fabcar
+  247  ls
+  248  node invoke.js
+  249  sudo node invoke.js
+  250  vim invoke.js 
+  251  gredi invoke.js 
+  252  gredit invoke.js 
+  253  sudo node invoke.js
+  254  node query.js 
+  255  node myquery.js
+  256  ls
+  257  #=sudo sh startFabric.sh
+  258  #sudo sh startFabric.sh
+  259  sudo sh startFabric.sh
+  260  ls
+  261  sudo sh startFabric.sh
+  262  cd fabric-network-boilerplate/
+  263  sudo sh startFabric.sh
+  264  history
+  265  node StartServer.js
+  266  ls
+  267  cd fabric-network-boilerplate/
+  268  node StartServer.js
+  269  ls
+  270  cd ./fabcar
+  271  node StartServer.js
+  272  pyvenv-3.5 my_env
+  273  sudo apt install python3.5-venv
+  274  source my_env/bin/activate
+  275  pyvenv-3.5 my_env
+  276  source my_env/bin/activate
+  277  pip install beautifulsoup4 gspread oauth2client pyOpenSSL
+  278  pip install --upgrade pip' command
+  279  pip install --upgrade pip
+  280  pip install --upgrade pip' command
+  281  pip install --upgrade pip
+  282  pip install --upgrade pip
+  283  python
+  284  ls
+  285  pwd
+  286  cd ./my_env
+  287  python login.py
+  288  python
+  289  ls
+  290  pwd
+  291  python lgin.py
+  292  python login.py
+  293  python update.py
+  294  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+  295  sudo apt-get install apt-transport-https
+  296  echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+  297  echo "deb https://download.sublimetext.com/ apt/dev/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+  298  sudo apt-get update
+  299  sudo apt-get install sublime-text
+  300  sublime_text
+  301  sublime-text
+  302  sublime
+  303  python update.py
+  304  python login.py
+  305  python login.py
+  306  python update.py
+  307  python login.py
+  308  python update.py
+  309  python login.py
+  310  python update.py
+  311  pip install parser
+  312  pip install beautifulsoup4
+  313  pip install beautifulsoup4 -update
+  314  pip install -update  beautifulsoup4
+  315  git clone github.com/howarder3/googlesheetAPItest
+  316  git clone git:github.com/howarder3/googlesheetAPItest
+  317  ls
+  318  cd ..
+  319  git clone https://github.com/howarder3/googlesheetAPItest.git
+  320  ld
+  321  ls
+  322  cd googlesheetAPItest/
+  323  git log -3
+  324  git status
+  325  git add .
+  326  git commit -m 'add env'
+  327  git config --global user.email "howarder3@gmail.com"
+  328  git config --global user.name "howarder3"
+  329  git commit -m 'add env'
+  330  git log -3
+  331  git log
+  332  git push
+  333  ls
+  334  cd my_env
+  335  python update.py
+  336  ls
+  337  python update.py
+  338  pwd
+  339  python update.py
+  340  cd ./googlesheetAPItest/my_env/
+  341  ls
+  342  my_env
+  343  source my_env/bin/activate
+  344  cd ..
+  345  source my_env/bin/activate
+  346  cd ./my_env/
+  347  ls
+  348  python update.py
+  349  python
+  350  pip install gspread
+  351  pip install --upgrade pip
+  352  pip install beautifulsoup4
+  353  pip install beautifulsoup4 gspread oauth2client pyOpenSSL
+  354  pip install  gspread oauth2client pyOpenSSL
+  355  ls
+  356  cd ./googlesheetAPItest/
+  357  ls
+  358  source my_env activate
+  359  cd ./my_env/
+  360  source my_env activate
+  361  source my_env/bin/ctivate
+  362  cd ..
+  363  source my_env/bin/ctivate
+  364  source my_env/bin/activate
+  365  ls
+  366  cd ./my_env/
+  367  ls
+  368  python update.py 
+  369  pip install gspread
+  370  pip install beautifulsoup4 gspread oauth2client pyOpenSSL
+  371  python update.py 
+  372  pip install -f  beautifulsoup4 gspread oauth2client pyOpenSSL
+  373  pip install oauth2client pyOpenSSL
+  374  sudo pip install beautifulsoup4 gspread oauth2client pyOpenSSL
+  375  pip install oauth2client
+  376  python update.py 
+  377  python login.py 
+  378  ls
+  379  pip install oauth2client
+  380  python
+  381  pip3 install oauth2client
+  382  sudo pip install oauth2client
+  383  python -m venv env
+  384  python3 -m venv env
+  385  source ./env/bin/activate
+  386  python -m pip install oauthclient
+  387  python -m pip install oauth2client
+  388* 
+  389  python -m pip install gspread
+  390  python login.py 
+  391  python update.py
+  392  python -m pip install beautifulsoup4
+  393  python update.py
+  394  python update.py 
+  395  history > history.log
