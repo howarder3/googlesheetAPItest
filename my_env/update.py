@@ -41,19 +41,20 @@ gss_scopes = ['https://spreadsheets.google.com/feeds']
 
 gss_client = auth_gss_client(auth_json_path, gss_scopes)
 
-def update_sheet(gss_client, key, today, item, price):
+def update_sheet(gss_client, key, today, hr, minute,second):
     wks = gss_client.open_by_key(key)
     sheet = wks.sheet1
-    sheet.insert_row([today, item, price], 2)
+    sheet.insert_row([today, hr, minute, second], 2)
 
 spreadsheet_key = "19nQvlQIGRIoGELFxGfHWazG45DM7D2GccZg8wlD85_g"	
 # spreadsheet_key_path = 'spreadsheet_key'
-
+import datetime
+now = datetime.datetime.now()
 # if cheapest_price is not None:
 today = time.strftime("%c")
 # with open(spreadsheet_key_path) as f:
 #    spreadsheet_key = f.read().strip()
-update_sheet(gss_client, spreadsheet_key, today, "cheapest_item","cheapest_price")
+update_sheet(gss_client, spreadsheet_key, today, now.hour,now.minute,now.second)
 
 # update.py
 
