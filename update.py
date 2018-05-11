@@ -27,10 +27,10 @@ def get_cheapest(url, text):
 
     return (cheapest_item, cheapest_price)
 
-  coolpc_url = 'http://www.coolpc.com.tw/evaluate.php'
-  ram_text = '記憶體 RAM'
+coolpc_url = 'http://www.coolpc.com.tw/evaluate.php'
+ram_text = '記憶體 RAM'
 
-  (cheapest_item, cheapest_price) = get_cheapest(coolpc_url, ram_text)
+(cheapest_item, cheapest_price) = get_cheapest(coolpc_url, ram_text)
 
 def auth_gss_client(path, scopes):
     credentials = ServiceAccountCredentials.from_json_keyfile_name(path,scopes)
