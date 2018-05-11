@@ -30,7 +30,7 @@ def get_cheapest(url, text):
 coolpc_url = 'http://www.coolpc.com.tw/evaluate.php'
 ram_text = 'RAM'
 
-(cheapest_item, cheapest_price) = get_cheapest(coolpc_url, ram_text)
+# (cheapest_item, cheapest_price) = get_cheapest(coolpc_url, ram_text)
 
 def auth_gss_client(path, scopes):
     credentials = ServiceAccountCredentials.from_json_keyfile_name(path,scopes)
@@ -49,11 +49,11 @@ def update_sheet(gss_client, key, today, item, price):
 spreadsheet_key = "19nQvlQIGRIoGELFxGfHWazG45DM7D2GccZg8wlD85_g"	
 # spreadsheet_key_path = 'spreadsheet_key'
 
-if cheapest_price is not None:
-	today = time.strftime("%c")
-	with open(spreadsheet_key_path) as f:
-	   spreadsheet_key = f.read().strip()
-	update_sheet(gss_client, spreadsheet_key, today, cheapest_item,cheapest_price)
+# if cheapest_price is not None:
+today = time.strftime("%c")
+# with open(spreadsheet_key_path) as f:
+#    spreadsheet_key = f.read().strip()
+update_sheet(gss_client, spreadsheet_key, today, "cheapest_item","cheapest_price")
 
 # update.py
 
