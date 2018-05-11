@@ -25,5 +25,4 @@ if cheapest_price is not None:
     today = time.strftime("%c")
     with open(spreadsheet_key_path) as f:
         spreadsheet_key = f.read().strip()
-    update_sheet(gss_client, spreadsheet_key, today, cheapest_item,
-                 cheapest_price)
+    update_sheet(gss_client, spreadsheet_key, today, "cheapest_item","cheapest_price")
