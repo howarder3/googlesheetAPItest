@@ -28,7 +28,7 @@ def get_cheapest(url, text):
     return (cheapest_item, cheapest_price)
 
 coolpc_url = 'http://www.coolpc.com.tw/evaluate.php'
-ram_text = '記憶體 RAM'
+ram_text = 'RAM'
 
 (cheapest_item, cheapest_price) = get_cheapest(coolpc_url, ram_text)
 
