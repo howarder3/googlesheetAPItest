@@ -19,11 +19,8 @@ def update_sheet(gss_client, key, today, item, price):
     sheet = wks.sheet1
     sheet.insert_row([today, item, price], 2)
 
-spreadsheet_key_path = 'spreadsheet_key'
+spreadsheet_key = "19nQvlQIGRIoGELFxGfHWazG45DM7D2GccZg8wlD85_g"
 
-if cheapest_price is not None:
-    today = time.strftime("%c")
-    with open(spreadsheet_key_path) as f:
-        spreadsheet_key = f.read().strip()
-    update_sheet(gss_client, spreadsheet_key, today, cheapest_item,
-                 cheapest_price)
+
+today = time.strftime("%c")
+update_sheet(gss_client, spreadsheet_key, today, "cheapest_item","cheapest_price")
